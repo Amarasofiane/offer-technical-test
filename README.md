@@ -8,7 +8,8 @@
   
 ensuite build maven run
 
-## Base de données embarquée H2 : le modèle de donnée est créé à chaque lancement du projet via hibernate vous pouvez manager la BD H2 depuis le serveur après avoir lancé le projet http://localhost:8080/h2-console
+## Base de données embarquée H2
+le modèle de donnée est créé à chaque lancement du projet via hibernate vous pouvez manager la BD H2 depuis le serveur après avoir lancé le projet http://localhost:8080/h2-console
 
 Identifiant : "sa" // password = "password"
 
