@@ -9,15 +9,16 @@
 ensuite build maven run
 
 ## Base de données embarquée H2
-le modèle de donnée est créé à chaque lancement du projet via hibernate vous pouvez manager la BD H2 depuis le serveur après avoir lancé le projet http://localhost:8080/h2-console
+Le modèle de donnée est créé à chaque lancement du projet via hibernate vous pouvez manager la BD H2 depuis le serveur après avoir lancé le projet http://localhost:8080/h2-console
 
 Identifiant : "sa" // password = "password"
 
-## API :  il est conseillé d'avoir installé postman ci-dessous les différentes étapes afin de pouvoir interroger les different endpoint de l'api :
+## API 
+Il est conseillé d'avoir installé postman ci-dessous les différentes étapes afin de pouvoir interroger les different endpoint de l'api :
 
 Intégrez le fichier postman collection Sofiane.postman_collection.json dans votre postman afin de générer les exemples de requête à effectuée sur l'api
 
-Endpoint :
+## Endpoint :
 - POST /api/users/register 
 - GET  /api/users/email/{email}
 - GET  /api/users/all
