@@ -2,7 +2,7 @@
 
 # Présentation du projet Spring Boot JPA + H2
 
-## Clone du projet dans votre repo local 
+## Clone du projet en local 
   >cd ../localpath
   >git clone https://github.com/Amarasofiane/offer-technical-test.git
   
