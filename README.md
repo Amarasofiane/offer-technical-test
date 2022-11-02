@@ -16,7 +16,7 @@ Identifiant = "sa" --- password = "password"
 ## API 
 Il est conseillé d'avoir installé postman ci-dessous les différentes étapes afin de pouvoir interroger les different endpoint de l'api :
 
-Intégrez le fichier postman >collection Sofiane.postman_collection.json dans votre postman > afin de générer les exemples de requête à effectuées sur l'api
+Intégrez le fichier postman "collection Sofiane.postman_collection.json" dans votre postman afin de générer les exemples de requête à effectuées sur l'api
 
 ## Endpoint 
 - POST /api/users/register 
