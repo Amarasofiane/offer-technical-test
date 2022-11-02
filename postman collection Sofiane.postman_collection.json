@@ -1,0 +1,522 @@
+{
+	"info": {
+		"_postman_id": "422a6361-5ff5-47f9-95d1-ed1128f40370",
+		"name": "postman collection Sofiane",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24173389"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/users/register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n     \"userName\":\"Cloe\",\r\n\t \"birthDate\":\"2002-10-11\",\r\n\t \"country\":\"France\",\r\n     \"email\":\"cloesosf@gmail.com\",\r\n\t \"phone\":\"0677221133\",\r\n\t \"gender\":\"F\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/register",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/users/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"userName\":\"Sofiane\",\r\n\t \"birthDate\":\"1994-10-11\",\r\n\t \"country\":\"France\",\r\n     \"email\":\"amarasofiane94@gmail.com\",\r\n\t \"phone\":\"0768954541\",\r\n\t \"gender\":\"M\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Tue, 01 Nov 2022 23:50:36 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ok\": \"registered user\"\n}"
+				},
+				{
+					"name": "http://localhost:8080/api/users/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"userName\":\"Cloe\",\r\n\t \"birthDate\":\"2008-10-11\",\r\n\t \"country\":\"France\",\r\n     \"email\":\"cloe@gmail.com\",\r\n\t \"phone\":\"0677221133\",\r\n\t \"gender\":\"F\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:09:00 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid user or not authorized\"\n}"
+				},
+				{
+					"name": "http://localhost:8080/api/users/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"userName\":\"Cloe\",\r\n\t \"birthDate\":\"2008-10-11\",\r\n\t \"country\":\"Italie\",\r\n     \"email\":\"cloesof@gmail.com\",\r\n\t \"phone\":\"0677221133\",\r\n\t \"gender\":\"F\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:09:59 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid user or not authorized\"\n}"
+				},
+				{
+					"name": "http://localhost:8080/api/users/register",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n     \"userName\":\"Cloe\",\r\n\t \"birthDate\":\"2002-10-11\",\r\n\t \"country\":\"France\",\r\n     \"email\":\"cloesosf@gmail.com\",\r\n\t \"phone\":\"0677221133\",\r\n\t \"gender\":\"F\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"register"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:10:44 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"ok\": \"registered user\"\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/users/email/stephsanemich@gmail.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/users/email/amarasofiane94@gmail.com",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"email",
+						"amarasofiane94@gmail.com"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/users/email/stephsanemich@gmail.com",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/email/stephsanemich@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"email",
+								"stephsanemich@gmail.com"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Disposition",
+							"value": "inline;filename=f.txt"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:05:38 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userName\": \"stephane\",\n    \"birthDate\": \"2001-10-11\",\n    \"gender\": \"F\",\n    \"country\": \"France\",\n    \"email\": \"stephsanemich@gmail.com\",\n    \"phone\": 677221133\n}"
+				},
+				{
+					"name": "http://localhost:8080/api/users/email/stephsanemich@gmail.com",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/email/stephch@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"email",
+								"stephch@gmail.com"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Disposition",
+							"value": "inline;filename=f.txt"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:06:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"user does not exist\"\n}"
+				},
+				{
+					"name": "http://localhost:8080/api/users/email/stephsanemich@gmail.com",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/users/email/amarasofiane94@gmail.com",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"email",
+								"amarasofiane94@gmail.com"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Disposition",
+							"value": "inline;filename=f.txt"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:11:23 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"userName\": \"Sofiane\",\n    \"birthDate\": \"1994-10-11\",\n    \"gender\": \"M\",\n    \"country\": \"France\",\n    \"email\": \"amarasofiane94@gmail.com\",\n    \"phone\": 768954541\n}"
+				}
+			]
+		},
+		{
+			"name": "http://localhost:8080/api/users/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/users/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"users",
+						"all"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "http://localhost:8080/api/users/all",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/users/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"users",
+								"all"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 02 Nov 2022 00:12:48 GMT"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=60"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"userName\": \"Sofiane\",\n        \"birthDate\": \"1994-10-11\",\n        \"gender\": \"M\",\n        \"country\": \"France\",\n        \"email\": \"amarasofiane94@gmail.com\",\n        \"phone\": 768954541\n    },\n    {\n        \"userName\": \"stephane\",\n        \"birthDate\": \"2002-10-11\",\n        \"gender\": \"M\",\n        \"country\": \"France\",\n        \"email\": \"stephane@gmail.com\",\n        \"phone\": 677221133\n    },\n    {\n        \"userName\": \"stephane\",\n        \"birthDate\": \"2001-10-11\",\n        \"gender\": \"F\",\n        \"country\": \"France\",\n        \"email\": \"stephsanemich@gmail.com\",\n        \"phone\": 677221133\n    },\n    {\n        \"userName\": \"Cloe\",\n        \"birthDate\": \"2002-10-11\",\n        \"gender\": \"F\",\n        \"country\": \"France\",\n        \"email\": \"cloesosf@gmail.com\",\n        \"phone\": 677221133\n    }\n]"
+				}
+			]
+		}
+	]
+}
