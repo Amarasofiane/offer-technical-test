@@ -33,9 +33,6 @@ public class User {
 	@Column(name = "phone_number")
 	private int phone;
 
-
-
-
 	public Long getUserRegisterId() {
 		return userRegisterId;
 	}
@@ -84,7 +81,6 @@ public class User {
 		this.gender = gender;
 	}
 
-	
 	public String getEmail() {
 		return email;
 	}
@@ -105,4 +101,3 @@ public class User {
 	}
 
 }
-

@@ -72,5 +72,4 @@ public class UserDTO {
 		user.setUserName(userDTO.getUserName());
 		return user;
 	}
-
 }

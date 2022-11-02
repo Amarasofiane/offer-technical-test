@@ -3,7 +3,7 @@ package com.offer.test.api.exceptions;
 import org.springframework.http.HttpStatus;
 
 public class EntityResponseData {
-	
+
 	private HttpStatus status;
 	private Object data;
 	private int statusCode = 200;
